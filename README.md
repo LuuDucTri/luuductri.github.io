@@ -1,2 +1,41 @@
 # LuuDucTri.github.io
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+   </head>
+<body>
+
+
+  <nav>
+    <div class="menu">
+      <div class="logo">
+       <img src="img/logo.png"></img>
+      </div>
+      <ul>
+        <li><a href="file:///D:/desktop/New%20folder/wed.html"target="_blank"
+            >Trang Chủ</a></li>
+        <li><a href="https://www.facebook.com/profile.php?id=100053376023727"target="_blank">FaceBook</a></li>
+        <li><a href="https://www.facebook.com/groups/529961851607666">Group</a></li>
+        <li><a href="https://www.facebook.com/chupanhnangthonee/posts/1364785020688932">Giá Chụp</a></li>
+        <li><a href="#">Feedback</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="img"></div>
+  <div class="center">
+    <div class="title">Chào Mừng Đến với Website Của Tôi</div>
+    <div class="sub_title">PHOTOFILM_STUDIO</div>
+   <div class="btns">
+      <button >FaceBook</button>
+      <button>Ảnh </button>
+    </div>
+  </div>
+</body>
+</html>
  
