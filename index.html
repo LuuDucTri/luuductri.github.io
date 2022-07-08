@@ -1,39 +1,193 @@
 <!DOCTYPE html>
-
+<!-- Designined by CodingLab | www.youtube.com/codinglabyt -->
 <html lang="en" dir="ltr">
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="Style.css">
+    <title> WEB DỰ ÁN MIỄN THI </title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Fontawesome CDN Link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
    </head>
 <body>
-
-
+  <!-- Move to up button -->
+  <div class="scroll-button">
+    <a href="#home"><i class="fas fa-arrow-up"></i></a>
+  </div>
+  <!-- navgaition menu -->
   <nav>
-    <div class="menu">
-      <div class="logo">
-       <img src="anh/logo.png"></img>
-      </div>
-      <ul>
-        <li><a href="index.html"
-            >Trang Chủ</a></li>
-        <li><a href="https://www.facebook.com/profile.php?id=100053376023727"target="_blank">FaceBook</a></li>
-        <li><a href="img.html">Ảnh Tôi</a></li>
-        <li><a href="bang gia.html">Bảng Giá</a></li>
-        <li><a href="#">Feedback</a></li>
+    <div class="navbar">
+      <div class="logo"><img src="Images/logo.png"></div>
+      <ul class="menu">
+          <li><a href="#home">Trang Chủ</a></li>
+          <li><a href="#about">Giới Thiệu</a></li>
+          <li><a href="#skills">Thành Tích</a></li>
+          <li><a href="#services">Sở Thích</a></li>
+          <li><a href="#contact">Liên Hệ</a></li>
+          <div class="cancel-btn">
+            <i class="fas fa-times"></i>
+          </div>
       </ul>
+      <div class="media-icons">
+        <a href="https://www.facebook.com/profile.php?id=100053376023727"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="menu-btn">
+      <i class="fas fa-bars"></i>
     </div>
   </nav>
-  <div class="img"></div>
-  <div class="center">
-    <div class="title">Chào Mừng Đến với Website Của Tôi</div>
-    <div class="sub_title">PHOTOFILM_STUDIO</div>
-   <div class="btns">
-      <button >FaceBook</button>
-      <button>Ảnh </button>
+
+<!-- Home Section Start -->
+ <section class="home" id="home">
+   <div class="home-content">
+     <div class="text">
+       <div class="text-one">Xin Chào,</div>
+       <div class="text-two">Tôi là Lưu Đức Trí</div>
+       <div class="text-three">Leader của WEB PHOTOFILM_STUDIO</div>
+       <div class="text-four">Đến Từ NHA TRANG</div>
+     </div>
+     <div class="button">
+       <button>Lướt xuống hay nhấn trên thanh trên kia đều được =)) </button>
+     </div>
+   </div>
+ </section>
+
+<!-- About Section Start -->
+<section class="about" id="about">
+  <div class="content">
+    <div class="title"><span>Giới Thiệu Về Tôi</span></div>
+  <div class="about-details">
+    <div class="left">
+      <img src="images/DSC00125.png" alt="">
+    </div>
+    <div class="right">
+      <div class="topic">Xin Chào!</div>
+      <p>Tôi hiện đang là sinh viên trường Cao Đẳng Kỹ Thuật Công Nghệ Nha Trang, lớp CNTTK15A , Tôi có sở thích là làm Lập Trình Viên và Chụp ảnh, tôi lập trang WEB này để hy vọng được Thầy "Ngọc Minh" cho em miễn thi. :>></p>
     </div>
   </div>
+  </div>
+</section>
+
+<!-- My Skill Section Start -->
+<!-- Section Tag and Other Div will same where we need to put same CSS -->
+<section class="skills" id="skills">
+ <div class="content">
+   <div class="title"><span>Thành Tích Học Tập</span></div>
+   <div class="skills-details">
+     <div class="text">
+       <div class="topic"></div>
+       <p>Thành tựu học lập trình trong suốt 1 năm qua</p>
+       <div class="experience">
+         <div class="num">1</div>
+         <div class="exp">Years  <br></div>
+       </div>
+     </div>
+     <div class="boxes">
+       <div class="box">
+         <div class="topic">HTML</div>
+         <div class="per">50%</div>
+       </div>
+       <div class="box">
+         <div class="topic">CSS</div>
+         <div class="per">30%</div>
+       </div>
+       <div class="box">
+         <div class="topic">JavaScript</div>
+         <div class="per">10%</div>
+       </div>
+       <div class="box">
+         <div class="topic">Python</div>
+         <div class="per">1%</div>
+       </div>
+     </div>
+   </div>
+ </div>
+</section>
+
+<!-- My Services Section Start -->
+ <section class="services" id="services">
+   <div class="content">
+     <div class="title"><span>SỞ THÍCH</span></div>
+     <div class="boxes">
+       <div class="box">
+         <div class="icon">
+           <i class="fas fa-desktop"></i>
+       </div>
+       <div class="topic">Chơi Game</div>
+       <p>Các game như :Adobe VALORANT, Adobe LMHT, Adobe PUBG, Adobe CSGO ,...</p>
+     </div>
+       <div class="box">
+         <div class="icon">
+           <i class="fas fa-paint-brush"></i>
+       </div>
+       <div class="topic">Thích Vẽ</div>
+       <p>Thích vẽ không có nghĩa là VẼ ĐẸP=))</p>
+     </div>
+       <div class="box">
+         <div class="icon">
+           <i class="fas fa-chart-line"></i>
+       </div>
+       <div class="topic">Kinh Doanh</div>
+       <p>Sau 10 năm kinh doanh bây giờ tài khoản của tôi còn 5 chục :>></p>
+     </div>
+       <div class="box">
+         <div class="icon">
+           <i class="fab fa-android"></i>
+       </div>
+       <div class="topic">Lập Trình</div>
+       <p>Rành mỗi ngôn ngữ C :((</p>
+     </div>
+       <div class="box">
+         <div class="icon">
+           <i class="fas fa-camera-retro"></i>
+       </div>
+       <div class="topic">Nhiếp Ảnh</div>
+       <p>Chụp thì 3 lít mỗi người ( Lưu ý không chụp dùm vài tấm );-;</p>
+     </div>
+       <div class="box">
+         <div class="icon">
+           <i class="fas fa-tablet-alt"></i>
+       </div>
+       <div class="topic">Lướt TikTok</div>
+       <p>'_______________________________'</p>
+     </div>
+   </div>
+   </div>
+ </section>
+ <section>
+  <div><h1 style="text-align: center;">Ảnh Tôi</h1></div>
+  <div class="img1">
+    <img style="left: 30px; width: 300px;height: 400px; border-radius: 10px;" src="images/IMG_3315[1].png" alt=""></a>
+    <img style="right: 30px; width: 300px;height: 400px; border-radius: 10px;" src="images/DSC01987.png" alt=""></a>
+    <img style="right: 30px; width: 300px;height: 400px; border-radius: 10px;" src="images/IMG_4293.png" alt=""></a>
+    <img style="right: 30px; width: 300px;height: 400px; border-radius: 10px;" src="images/DSC02088.png" alt=""></a>
+    <img style="right: 30px; width: 300px;height: 400px; border-radius: 10px;" src="images/IMG_4316.png" alt=""></a>
+  </div>
+ </section>
+
+<!-- Contact Me section Start -->
+<section class="contact" id="contact">
+  <div class="content">
+    <div class="title"><span>Liên Hệ</span></div>
+    <div class="text">
+      <div class="topic">ZALO: 0925302094</div>
+      <p>Địa Chỉ: Tổ 1 Đông Môn 1 thị trấn Diên Khánh , Huyện Diên Khánh , Tỉnh Khánh Hoà , Tp NHA TRANG</p>
+      <div class="button">
+        <button><a href="https://www.facebook.com/profile.php?id=100053376023727"" style="background-color: #0000;"> Kết Bạn FACEBOOK</a></button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer Section Start -->
+<footer>
+  <div class="text">
+    <span>Created By <a href="#">Lưu Đức Trí</a> | WEB lập ra để hy vọng được Thầy "Ngọc Minh" cho em miễn thi :>></span>
+  </div>
+</footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
