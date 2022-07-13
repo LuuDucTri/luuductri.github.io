@@ -112,7 +112,7 @@ nav.sticky .menu-btn{
 .home{
   height: 100vh;
   width: 100%;
-  background: linear-gradient(to right bottom, rgba(124, 137, 255, 0.267), rgba(255, 255, 255, 0.41)), url("https://github.com/LuuDucTri/luuductri.github.io/blob/main/Images/img1.png?raw=true") no-repeat;
+  background: linear-gradient(to right bottom, rgba(124, 137, 255, 0.267), rgba(255, 255, 255, 0.41)), url("images/img1.png") no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -495,7 +495,112 @@ footer .text span a:hover{
   .contact .text{
     width: 100%;
 }
+
 }
+.slider{
+  margin: 0px auto;
+  width: 800px;
+  height: 500px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.slides{
+  width: 500%;
+  height: 500px;
+  display: flex;
+}
+
+.slides input{
+  display: none;
+}
+
+.slide{
+  width: 20%;
+  transition: 2s;
+}
+
+.slide img{
+  width: 800px;
+  height: 500px;
+}
+
+.navigation-mannual{
+  position: absolute;
+  width: 800px;
+  margin-top: -40px;
+  display: flex;
+  justify-content: center;
+}
+
+.mannual-btn{
+  border: 2px solid #ccc;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.mannual-btn:not(:last-child){
+  margin-right: 40px;
+}
+
+.mannual-btn:hover{
+  background-color: #ccc;
+}
+
+#radio1:checked ~ .first{
+  margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+  margin-left: -20%;
+}
+
+#radio3:checked ~ .first{
+  margin-left: -40%;
+}
+
+#radio4:checked ~ .first{
+  margin-left: -60%;
+}
+
+/* Automatic Navigation */
+.navigation-auto{
+  position: absolute;
+  display: flex;
+  width: 800px;
+  justify-content: center;
+  margin-top: 460px;
+}
+
+.navigation-auto div{
+  border: 2px solid #333;
+  padding: 5px;
+  border-radius: 10px;
+  transition: 1s;
+}
+
+.navigation-auto div:not(:last-child){
+  margin-right: 40px;
+}
+
+#radio1:checked ~.navigation-auto .auto-btn-1{
+  background-color: #ccc;
+}
+
+#radio2:checked ~.navigation-auto .auto-btn-2{
+  background-color: #ccc;
+}
+
+#radio3:checked ~.navigation-auto .auto-btn-3{
+  background-color: #ccc;
+}
+
+#radio4:checked ~.navigation-auto .auto-btn-4{
+  background-color: #ccc;
+}
+
 
 @media (max-width: 500px){
   .home .text-two{
