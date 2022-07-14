@@ -10,6 +10,9 @@
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
    </head>
 <body>
+  <script>
+    alert('Xin Chào! Đây là trang Web của Lưu Đức Trí, Nhấp OK để xem thêm.')
+  </script>
   <!-- Move to up button -->
   <div class="scroll-button">
     <a href="#home"><i class="fas fa-arrow-up"></i></a>
@@ -24,7 +27,11 @@
           <li><a href="#skills">Thành Tích</a></li>
           <li><a href="#services">Sở Thích</a></li>
           <li><a href="#contact">Liên Hệ</a></li>
+<<<<<<< Updated upstream
           <li><a href="#contact">Bài Tập JavaScript</a></li>
+=======
+          <li><a href="#baitap">Bài Tập JavaScript</a></li>
+>>>>>>> Stashed changes
           <div class="cancel-btn">
             <i class="fas fa-times"></i>
           </div>
@@ -50,7 +57,7 @@
        <div class="text-four">Đến Từ NHA TRANG</div>
      </div>
      <div class="button">
-       <button>Lướt xuống hay nhấn trên thanh trên kia đều được =)) </button>
+       <button>Lướt xuống để biết thêm thông tin </button>
      </div>
    </div>
  </section>
@@ -198,10 +205,35 @@
             <label for="radio4" class="mannual-btn"></label>
           </div>
           <!-- Mannual Navigation Close -->
+<<<<<<< Updated upstream
 
       </div>
  </section>
+=======
+>>>>>>> Stashed changes
 
+      </div>
+ </section>
+ <section class="baitap" id="baitap">
+ <div class="containerss">
+  <h2>Bài tập java điền thông tin</h2>
+  <span>Họ và tên: <input type="text" id="hoten" style="margin-left: 30px;"></span>
+  <span>email    : <input type="text" id="vtlv"></span>
+  <span>Tuổi     : <input type="number" min="0" id="luong" style="margin-left: 20px;"></span>
+  <span>Giới tính:
+      <span style="margin-left: 35px;">Nam: </span><input type="radio" name="gioitinh" id="gioitinhnam" value="Nam">
+      <span>Nữ: </span><input type="radio" name="gioitinh" id="gioitinhnu" value="Nữ">
+  </span>
+  <div class="luu">
+      <button onclick="luu()">Lưu</button>
+  </div>
+  <div class="show">
+      <p>Họ và tên: <span id="hotenx"></span></p>
+      <p>email: <span id="vtlvx"></span></p>
+      <p>Tuổi: <span id="luongx"></span></p>
+      <p>Giới tính: <span id="gioitinhx"></span></p>
+  </div>
+</div></section>
 <!-- Contact Me section Start -->
 <section class="contact" id="contact">
   <div class="content">
@@ -210,12 +242,19 @@
       <div class="topic">ZALO: 0925302094</div>
       <p>Địa Chỉ: Tổ 1 Đông Môn 1 thị trấn Diên Khánh , Huyện Diên Khánh , Tỉnh Khánh Hoà , Tp NHA TRANG</p>
       <div class="button">
-        <button><a href="https://www.facebook.com/profile.php?id=100053376023727"" style="background-color: #0000;"> Kết Bạn FACEBOOK</a></button>
+        <button><a href="https://www.facebook.com/profile.php?id=100053376023727"> Kết Bạn FACEBOOK</a></button>
       </div>
     </div>
   </div>
 </section>
-
+<script src="script.js"></script>
+  <script language = "JavaScript">
+    var Ten, Tuoi,email; // Khai báo 2 biến để lưu tên và tuổi
+    Ten = prompt("Bạn hãy nhập vào tên ", "");
+    document.write("Chào bạn : <B> " + Ten + "</B>");
+    document.write("<BR>"); // Xuống dòng
+    document.write("Cảm ơn bạn đã xem web của tôi. ");
+    </script>
 <!-- Footer Section Start -->
 <footer>
   <div class="text">
@@ -223,6 +262,6 @@
   </div>
 </footer>
 
-  <script src="script.js"></script>
+  
 </body>
 </html>

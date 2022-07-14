@@ -14,16 +14,16 @@
     width: 10px;
 }
 ::-webkit-scrollbar-track {
-    background: #f1f1f1;
+    background: #000000;
 }
 ::-webkit-scrollbar-thumb {
-    background: #6e93f7;
+    background: #6a5252;
     border-radius: 12px;
     transition: all 0.3s ease;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #4070f4;
+    background: #ffffff;
 }
 /* navbar styling */
 nav{
@@ -64,7 +64,7 @@ nav .navbar .menu li{
 .navbar .menu a{
   font-size: 18px;
   font-weight: 500;
-  color: #0E2431;
+  color: #000000;
   padding: 6px 0;
   transition: all 0.4s ease;
 }
@@ -78,7 +78,7 @@ nav.sticky .menu a:hover{
   color: #ffffff;
 }
 .navbar .media-icons a{
-  color: #4070f4;
+  color: #000000;
   font-size: 18px;
   margin: 0 6px;
 }
@@ -112,7 +112,11 @@ nav.sticky .menu-btn{
 .home{
   height: 100vh;
   width: 100%;
+<<<<<<< Updated upstream
   background: linear-gradient(to right bottom, rgba(124, 137, 255, 0.267), rgba(255, 255, 255, 0.41)), url("images/img1.png") no-repeat;
+=======
+  background: url("images/anh13.png") no-repeat;
+>>>>>>> Stashed changes
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -131,7 +135,7 @@ nav.sticky .menu-btn{
   color: #ffffff;
 }
 .home .text-two{
-  color: #ffffff;
+  color: #708090;
   font-size: 75px;
   font-weight: 600;
   margin-left: -3px;
@@ -139,7 +143,7 @@ nav.sticky .menu-btn{
 .home .text-three{
   font-size: 40px;
   margin: 5px 0;
-  color: #ffffff;
+  color: #708090;
 }
 .home .text-four{
   font-size: 23px;
@@ -155,16 +159,16 @@ nav.sticky .menu-btn{
   border-radius: 6px;
   font-size: 25px;
   font-weight: 400;
-  background: #4070f4;
+  background: #000000;
   color: #fff;
   cursor: pointer;
   border: 2px solid transparent;
   transition: all 0.4s ease;
 }
 .home .button button:hover{
-  border-color: #4070f4;
+  border-color: #ffffff;
   background-color: #fff;
-  color: #4070f4;
+  color: #000000;
 }
 
 /* About Section Styling */
@@ -242,7 +246,7 @@ section .button button{
   border-radius: 4px;
   font-size: 25px;
   font-weight: 400;
-  background: #4070f4;
+  background: #95a9e0;
   color: #fff;
   border: 2px solid transparent;
   cursor: pointer;
@@ -250,11 +254,11 @@ section .button button{
 }
 section .button button:hover{
   border-color: #4070f4;
-  background-color: #fff;
+  background-color: #4070f4;
   color: #4070f4;
 }
 
- /* My Skills CSS */
+ /* ky nang CSS */
  .skills{
    background: #F0F8FF;
  }
@@ -325,13 +329,13 @@ section .button button:hover{
   transition: all 0.4s ease;
 }
 .services .boxes .box:hover{
-  background: #4070f4;
+  background: #4e4e4e;
   color: #fff;
 }
 .services .boxes .box .icon{
   height: 50px;
   width: 50px;
-  background: #4070f4;
+  background: #000000;
   border-radius: 50%;
   text-align: center;
   line-height: 50px;
@@ -342,7 +346,7 @@ section .button button:hover{
 }
 .boxes .box:hover .icon{
   background-color: #fff;
-  color: #4070f4;
+  color: #000000;
 }
 .services .boxes .box:hover .topic,
 .services .boxes .box:hover p{
@@ -353,7 +357,7 @@ section .button button:hover{
 .services .boxes .box:hover p{
   color: #fff;
 }
-/* Contact Me CSS */
+/* lien he CSS */
 .contact{
   background: #F0F8FF;
 }
@@ -367,9 +371,9 @@ section .button button:hover{
   margin: auto;
 }
 
-/* Footer CSS */
+/* phan cuoi CSS */
 footer{
-  background: #4070f4;
+  background: #000000;
   padding: 15px 0;
   text-align: center;
   font-family: 'Poppins', sans-serif;
@@ -386,13 +390,13 @@ footer .text span a{
 footer .text span a:hover{
   text-decoration: underline;
 }
-/* Scroll TO Top Button CSS */
+/* mui ten ve trang chu */
 .scroll-button a{
   position: fixed;
   bottom: 20px;
   right: 20px;
   color: #fff;
-  background: #4070f4;
+  background: #423535;
   padding: 7px 12px;;
   font-size: 18px;
   border-radius: 6px;
@@ -517,7 +521,11 @@ footer .text span a:hover{
 
 .slide{
   width: 20%;
+<<<<<<< Updated upstream
   transition: 2s;
+=======
+  transition: 1s;
+>>>>>>> Stashed changes
 }
 
 .slide img{
@@ -563,6 +571,7 @@ footer .text span a:hover{
 
 #radio4:checked ~ .first{
   margin-left: -60%;
+<<<<<<< Updated upstream
 }
 
 /* Automatic Navigation */
@@ -581,6 +590,68 @@ footer .text span a:hover{
   transition: 1s;
 }
 
+=======
+}
+/*bai tap*/
+.containerss{
+  padding-left: 10px;
+  width: 20%;
+  margin: auto;
+  border: solid 1px black;
+}
+.containerss h2{
+  width: 75%;
+  margin: auto;
+  margin-bottom: 30px;
+}
+.containerss span{
+  display: block;
+  margin-top: 10px;
+}
+.containerss span span{
+  display: inline;
+}
+.containerss .show span{
+  display: inline;
+}
+.luu button{
+  border-radius: 1rem;
+  cursor: pointer;
+  margin-top: 20px;
+  width: 100px;
+  height: 40px;
+  background-color: #28800e;
+}
+.luu button:hover{
+  color: #fff;
+  width: 100px;
+  height: 40px;
+  background-color: #54be34;
+}
+.luu{
+  width: 40%;
+  margin: auto;
+}
+.show{
+  display: none;
+}
+/* Automatic Navigation */
+.navigation-auto{
+  position: absolute;
+  display: flex;
+  width: 800px;
+  justify-content: center;
+  margin-top: 460px;
+}
+
+.navigation-auto div{
+  border: 2px solid #333;
+  padding: 5px;
+  border-radius: 10px;
+  transition: 1s;
+}
+
+>>>>>>> Stashed changes
 .navigation-auto div:not(:last-child){
   margin-right: 40px;
 }
@@ -600,8 +671,14 @@ footer .text span a:hover{
 #radio4:checked ~.navigation-auto .auto-btn-4{
   background-color: #ccc;
 }
+<<<<<<< Updated upstream
 
 
+=======
+.Javascript{
+  margin: 0% auto;
+}
+>>>>>>> Stashed changes
 @media (max-width: 500px){
   .home .text-two{
     font-size: 55px;
